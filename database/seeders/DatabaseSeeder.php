@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         DB::table('anggotas')->updateOrInsert(['id' => 1], [
-            'nama' => 'Anggota Satu',
+            'nama' => 'Anggota 1 - 250441100071',
             'email' => 'anggota1@gmail.com',
             'no_telepon' => '081234567890',
             'created_at' => now(),
@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         DB::table('anggotas')->updateOrInsert(['id' => 2], [
-            'nama' => 'Anggota Dua',
+            'nama' => 'Anggota 2 - 250441100071',
             'email' => 'anggota2@gmail.com',
             'no_telepon' => '081234567891',
             'created_at' => now(),
@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         DB::table('anggotas')->updateOrInsert(['id' => 3], [
-            'nama' => 'Siswa Perpustakaan',
+            'nama' => 'Siswa 250441100071',
             'email' => 'siswa@gmail.com',
             'no_telepon' => '081234567892',
             'created_at' => now(),
