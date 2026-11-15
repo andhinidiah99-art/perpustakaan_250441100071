@@ -32,7 +32,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/buku-cari', [App\Http\Controllers\Api\BukuController::class, 'cari']);
 
-    Route::get('/buku/{id}/hapus', [App\Http\Controllers\Api\BukuController::class, 'destroy']);
+    Route::get('/buku/{id}/hapus', [BukuController::class, 'destroy'])->name('buku.hapus');
 });
 
 require __DIR__.'/auth.php';
